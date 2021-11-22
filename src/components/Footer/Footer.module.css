@@ -1,0 +1,40 @@
+@font-face {
+  font-family: Cairo-light;
+  src: url(../../fonts/Cairo-Light.ttf);
+}
+footer {
+  font-family: Cairo-light;
+  width: 100%;
+  background-color: black !important;
+  height: 380px;
+  direction: ltr;
+
+  position: relative;
+  bottom: 0;
+}
+.footer a {
+  color: white;
+  text-decoration: none;
+  padding-top: 20px;
+}
+.footer a:hover {
+  color: white;
+  text-decoration: underline;
+  transition: all 0.8s ease-in-out;
+}
+.footer .row {
+  padding-top: 40px;
+}
+.footer h5 {
+  padding-top: 80px;
+}
+.footercopywrites {
+  margin-top: 25px !important;
+  /* height: 30px; */
+  border-top: 1px solid grey;
+}
+.designer {
+  /* height: 30px; */
+  padding-top: 20px !important;
+  padding-bottom: 15px;
+}

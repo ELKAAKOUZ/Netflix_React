@@ -1,0 +1,359 @@
+.formpage {
+  background-image: url(../../components/Login/netflix_movies_cover.jpg);
+  background-size: cover;
+  background-position: center;
+  min-width: 1203px;
+  min-height: 838px;
+}
+@font-face {
+  font-family: Cairo-Bold;
+  src: url(../../fonts/Cairo-Bold.ttf);
+}
+@font-face {
+  font-family: Cairo-light;
+  src: url(../../fonts/Cairo-Light.ttf);
+}
+#netflixlogo {
+  position: absolute;
+  left: 5%;
+  top: 5%;
+  width: 10%;
+  height: 60px;
+}
+form {
+  width: 530px;
+  height: 650px;
+  position: absolute;
+  border-radius: 10px;
+  border-color: white !important;
+  top: 50%;
+  left: 50%;
+  background-color: black;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  opacity: 0.9;
+}
+
+form h1 {
+  font-family: Cairo-Bold;
+  text-align: left;
+  margin: 70px 67px 17px;
+  color: white;
+  font-weight: bold;
+}
+input[type="text"],
+button[type="submit"],
+input[type="password"] {
+  width: 400px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  color: #fff;
+  height: 50px;
+  line-height: 50px;
+  font-size: 16px;
+  border-radius: 4px;
+  text-align: left;
+  font-weight: 700;
+  margin: 24px 0 12px;
+  padding-left: 10px;
+  background-color: rgb(51, 51, 51);
+}
+button[type="submit"] {
+  text-align: center;
+  background-color: #e50914;
+  cursor: pointer;
+}
+.errmsg {
+  background-color: rgb(51, 51, 51);
+  border-radius: 10px;
+  padding: 10px;
+  margin: 0 auto;
+  border-bottom: 3px solid yellow;
+  width: 400px;
+  text-align: left;
+  color: yellow;
+  /* height: 80px; */
+}
+.submit {
+  background-color: #e50914;
+}
+.submit:hover {
+  color: black;
+  background-color: yellow;
+  transition: all 0.6s ease-in-out;
+}
+#check {
+  position: absolute;
+  float: left;
+  margin-top: 20px;
+  left: 12%;
+}
+#checkbox {
+  margin-left: 10px;
+  height: 20px;
+  width: 20px;
+}
+#helplink {
+  position: absolute;
+  float: right;
+  right: 10%;
+  color: white;
+  text-decoration: none;
+  margin-top: 20px;
+}
+.face {
+  position: absolute;
+  float: left;
+  left: 12%;
+  margin-top: 100px;
+}
+.face a {
+  color: rgb(51, 51, 51);
+  text-decoration: none;
+  margin-left: 10px;
+}
+.log {
+  position: absolute;
+  float: left;
+  left: 12%;
+  color: rgb(51, 51, 51);
+  margin-top: 145px;
+}
+.log a {
+  color: white;
+  text-decoration: none;
+}
+.more {
+  position: absolute;
+  color: rgb(51, 51, 51);
+  float: left;
+  left: 12%;
+  margin-top: 175px;
+  text-align: left;
+}
+.more a {
+  text-decoration: none;
+}
+form h6 {
+  color: yellow;
+  padding-right: 12%;
+  text-align: right;
+}
+.flexdiv {
+  margin-top: 40px;
+  text-align: left;
+  margin-left: 13%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+/* @media screen and (min-width: 320px) and (max-width: 480px) {
+  #netflixlogo {
+    left: 5%;
+    top: 5%;
+    width: 25%;
+    height: 60px;
+  }
+  #errmsg {
+    width: 80%;
+  }
+  input,
+  button {
+    width: 80% !important;
+  }
+  form {
+    margin-top: 150px;
+    width: 90%;
+    height: 676px;
+  }
+  form h1 {
+    margin: 70px 20px 17px;
+  }
+  .face {
+    left: 2%;
+  }
+  .face a {
+    margin-left: 1px;
+  }
+  .log {
+    left: 2%;
+  }
+  .more {
+    left: 2%;
+    text-align: left;
+  }
+  #helplink {
+    right: 2%;
+  }
+  #check {
+    margin-top: 20px;
+    left: 2%;
+  }
+  #checkbox {
+    position: absolute;
+    left: 2%;
+  }
+  input[type="checkbox"] {
+    position: absolute;
+    left: 2px;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  #netflixlogo {
+    left: 5%;
+    top: 5%;
+    width: 25%;
+    height: 60px;
+  }
+  input {
+    width: 80% !important;
+  }
+  #errmsg {
+    width: 80%;
+  }
+  form {
+    margin-top: 120px;
+    width: 90%;
+    height: 700px;
+  }
+  form h1 {
+    margin: 70px 20px 17px;
+  }
+  .face {
+    left: 5%;
+  }
+  .face a {
+    margin-left: 1px;
+  }
+  .log {
+    left: 5%;
+  }
+  .more {
+    left: 5%;
+    text-align: left;
+  }
+  #helplink {
+    right: 5%;
+  }
+  #check {
+    margin-top: 20px;
+    left: 5%;
+  }
+  #checkbox {
+    position: absolute;
+    left: 5%;
+  }
+  input[type="checkbox"] {
+    position: absolute;
+    left: 2px;
+  }
+} */
+
+/* @media screen and (min-width: 769px) and (max-width: 1024px) {
+  #netflixlogo {
+    left: 5%;
+    top: 5%;
+    width: 25%;
+    height: 60px;
+  }
+  input {
+    width: 67% !important;
+  }
+  #errmsg {
+    width: 67%;
+  }
+  form {
+    margin-top: 50px;
+    width: 70%;
+    height: 750px;
+  }
+  form h1 {
+    margin: 70px 20px 17px;
+  }
+  .face {
+    left: 10%;
+  }
+  .face a {
+    margin-left: 1px;
+  }
+  .log {
+    left: 10%;
+  }
+  .more {
+    left: 10%;
+    text-align: left;
+  }
+  #helplink {
+    right: 10%;
+  }
+  #check {
+    position: absolute;
+    float: left;
+    margin-top: 20px;
+    left: 12%;
+  }
+
+  #checkbox {
+    margin-left: 10px;
+    height: 20px;
+    width: 5px;
+  }
+} */
+/* @media screen and (min-width: 1025px) and (max-width: 1200px) {
+  #netflixlogo {
+    left: 5%;
+    top: 5%;
+    width: 20%;
+    height: 60px;
+  }
+  input {
+    width: 80% !important;
+  }
+  #errmsg {
+    width: 80%;
+  }
+  form {
+    margin-top: 50px;
+    width: 70%;
+    height: 750px;
+  }
+  form h1 {
+    margin: 70px 20px 17px;
+  }
+  .face {
+    left: 10%;
+  }
+  .face a {
+    margin-left: 1px;
+  }
+  .log {
+    left: 10%;
+  }
+  .more {
+    left: 10%;
+    text-align: left;
+  }
+  #helplink {
+    right: 10%;
+  }
+  #check {
+    margin-top: 20px;
+    left: 10%;
+  }
+  #checkbox {
+    position: absolute;
+    left: 10%;
+  }
+  input[type="checkbox"] {
+    position: absolute;
+    left: 2px;
+  }
+} */
+
+.loginlink {
+  cursor: pointer;
+  text-decoration: solid;
+}

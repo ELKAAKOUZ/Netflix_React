@@ -1,0 +1,35 @@
+@font-face{
+    font-family: Cairo-Light;
+    src: url(../../fonts/Cairo-Light.ttf);
+}
+.form{
+    width: 555;
+    height: 155px;
+    transform: translate(-50%,-50%);
+    border: 1px solid grey;
+    border-radius: 10px;
+    font-family: Cairo-Light;
+}
+.form input{
+    margin: 20px auto;
+    display: block;
+    width: 90%;
+    height: 50px;
+}
+.form input[type='submit']{
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    font-size:larger;
+    outline: none;
+    border: none;
+}
+.form input[type='submit']:hover{
+    background-color: yellow;
+    color: black;
+    transition: all 0.5s;
+}
+.form label{
+    text-align: left;
+    font-size: large;
+}

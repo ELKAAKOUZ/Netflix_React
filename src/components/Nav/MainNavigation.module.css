@@ -1,0 +1,25 @@
+
+.logo{
+    height: 30px;
+    width: 70px;
+    margin-right: 20px;
+    /* position: relative;
+    left:-10%; */
+}
+.loginNav{
+    position: absolute;
+    left: 15px;
+    top: 10px;
+    width: 83px ;
+    height: 30px ;
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    background-color: red;
+}
+.loginNav:hover{
+    background-color: yellow;
+    color: black;
+    transform: all 0.5s ;
+}

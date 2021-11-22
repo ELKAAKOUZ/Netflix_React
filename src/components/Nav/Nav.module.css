@@ -1,0 +1,33 @@
+.nav {
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px;
+  background-color: rgba(51, 51, 51, 0.2);
+}
+.navScrolled {
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px;
+  background-color: black;
+}
+.netflixlogo {
+  max-width: 80px;
+  object-fit: contain;
+}
+.links {
+  text-decoration: none;
+  color: white;
+}
+.links:hover {
+  color: white;
+}
+/* .links:active {
+  color: aqua;
+  pointer-events: none;
+} */

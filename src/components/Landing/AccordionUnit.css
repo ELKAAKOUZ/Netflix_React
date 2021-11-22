@@ -1,0 +1,30 @@
+@font-face {
+  font-family: Cairo-light;
+  src: url(../../fonts/Cairo-Light.ttf);
+}
+
+.accordion {
+  border: 5px solid black;
+}
+.accordion-button {
+  background-color: rgb(8, 8, 8) !important;
+  color: white;
+  outline: none;
+  border: none;
+}
+.accordion-body {
+  color: black;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: rgb(48, 48, 48);
+  color: white !important;
+  outline: none;
+  border: none;
+}
+.accordion-item:last-of-type .accordion-button.collapsed {
+  border-bottom-right-radius: calc(0.25rem - 1px);
+  background-color: darkgrey;
+  color: white;
+  font-size: x-large;
+}

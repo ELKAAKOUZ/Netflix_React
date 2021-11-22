@@ -1,0 +1,26 @@
+.row__Poosters {
+  display: flex;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  padding: 20px;
+}
+.row__Poosters::-webkit-scrollbar {
+  display: none;
+}
+.row__Pooster {
+  object-fit: contain;
+  width: 100%;
+  max-height: 100px;
+  margin-right: 10px;
+  transition: all 450ms;
+}
+.row__Pooster:hover {
+  transform: scale(1.08);
+  cursor: pointer;
+}
+.row__PosterLarge {
+  max-height: 250px;
+}
+.row__PosterLarge:hover {
+  transform: scale(1.09);
+}
